@@ -14,7 +14,7 @@ class MailPage:
     def dalej(self):
         self.driver.find_element_by_xpath('//input[contains (@type, "submit")]').click()
     def password(self):
-        self.driver.find_element_by_xpath('//input[contains (@name, "passwd")]').send_keys("P3vsj38s!!!")
+        self.driver.find_element_by_xpath('//input[contains (@name, "passwd")]').send_keys("P3vsj!!38s!!")
 
 
 
